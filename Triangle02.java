@@ -6,14 +6,14 @@ public class Triangle02 {
         System.out.print("Masukkan nilai n = ");
         int n = sc.nextInt();
 
-        int i = 1; // mulai dari 1 agar baris pertama berisi satu bintang
-        while (i <= n) { // jalankan sampai baris ke-n
+        int i = 1; 
+        while (i <= n) { 
             int j = 1;
-            while (j <= i) { // jumlah bintang sesuai nilai i
+            while (j <= i) { 
                 System.out.print("*");
                 j++;
             }
-            System.out.println(); // pindah baris
+            System.out.println(); 
             i++;
         }
     }
